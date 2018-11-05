@@ -1,0 +1,49 @@
+body {
+  padding-top: 75px;
+}
+
+#home-jumbo {
+  background-image: url('images/home-background.jpg');
+  background-size: cover;
+  background-position:center;
+  height: 60vh;
+}
+
+#about-jumbo {
+  background-image: url('images/about-background.jpg');
+  background-size: cover;
+  background-position:center;
+  height: 60vh;
+}
+
+#information-jumbo {
+  background-image: url('images/information-background.jpg');
+  background-size: cover;
+  background-position:center;
+  height: 60vh;
+}
+
+#practice-jumbo {
+  background-image: url('images/practice-background.jpg');
+  background-size: cover;
+  background-position:center;
+  height: 60vh;
+}
+
+#faq-jumbo {
+  background-image: url('images/faq-background.jpg');
+  background-size: cover;
+  background-position:center;
+  height: 60vh;
+}
+
+.about-row {
+  margin-left: 5px !important;
+  margin-right: 5px !important;
+  margin-bottom: 25px;
+}
+
+#footer-style {
+  margin-top: 25px;
+  height: 40px;
+}
