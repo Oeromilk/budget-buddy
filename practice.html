@@ -34,12 +34,54 @@
       <div id="practice-jumbo" class="jumbotron">
         <h1 class="display-2 text-white">Practice</h1>
       </div>
-
+      <div class="row">
+        <div class="col-lg-6 bottom-spacing">
+          <h3>Try it for your self!</h3>
+          <p>Do not worry, none of this infomation will be saved. All information
+          will be deleted on page refersh or closing of the browser.</p>
+          <p>It is important to understand this is just used for demonstration purposes.
+          Seeing these graphs like this enables you to visualize how much you are spending
+          versus what you should be spending.</p>
+        </div>
+        <div class="col-lg-6 bottom-spacing">
+          <form class="form-style">
+            <div class="form-group">
+              <label for="monhlyIncome">Monthly Income</label>
+              <input type="text" class="form-control" id="monthlyIncome" value="" placeholder="Enter your Income">
+            </div>
+            <div class="form-group">
+              <label for="rent">Rent or Mortgage</label>
+              <input type="text" class="form-control" id="rent" value="" placeholder="Enter your Rent">
+            </div>
+            <div class="form-group">
+              <label for="carBill">Car Payment</label>
+              <input type="text" class="form-control" id="carBill" value="" placeholder="Enter your Car Payment">
+            </div>
+            <div class="form-group">
+              <label for="savings">Savings</label>
+              <input type="text" class="form-control" id="savings" value="" placeholder="Enter your Savings">
+            </div>
+            <button type="button" id="calculateBudget" class="btn btn-primary btn-block">Calculate</button>
+          </form>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 bottom-spacing">
+          <h3>The Ideal Budget</h3>
+          <canvas id="exampleChart" width="300" height="300"></canvas>
+        </div>
+        <div class="col-lg-6 bottom-spacing">
+          <h3>Your Budget</h3>
+          <canvas id="userChart" width="300" height="300"></canvas>
+        </div>
+      </div>
       <footer id="footer-style" class="footer bg-light">
         <p class="text-muted text-center">Budget Buddy &copy; 2018</p>
       </footer>
     </div>
   </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.min.js"></script>
+  <script type="text/javascript" src="practice.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>

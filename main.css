@@ -2,6 +2,23 @@ body {
   padding-top: 75px;
 }
 
+@media (min-width: 993px) {
+  .info-style {
+    padding: 2.5em;
+    background: rgb(0,123,255);
+    background: linear-gradient(90deg, rgba(0,123,255,1) 0%, rgba(125,188,255,1) 45%, rgba(255,255,255,1) 100%);
+  }
+
+}
+
+@media (max-width: 992px) {
+  .info-style {
+    padding: 0.75em;
+    background: rgb(0,123,255);
+    background: linear-gradient(180deg, rgba(0,123,255,1) 0%, rgba(125,188,255,1) 45%, rgba(255,255,255,1) 100%);
+  }
+}
+
 #home-jumbo {
   background-image: url('images/home-background.jpg');
   background-size: cover;
@@ -46,4 +63,14 @@ body {
 #footer-style {
   margin-top: 25px;
   height: 40px;
+}
+
+.bottom-spacing {
+  margin-bottom: 2.5em;
+}
+
+.form-style {
+  border-radius: 0.75em;
+  border: 1px solid #333;
+  padding: 1.5em;
 }
