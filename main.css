@@ -74,3 +74,11 @@ body {
   border: 1px solid #333;
   padding: 1.5em;
 }
+
+.faq-header {
+  color: rgb(0,123,255);
+}
+
+.faq-padding {
+  margin-bottom: 2.5em;
+}
